@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.outbox{
+    border:solid 1px;
+    height: 120px;
+    display: flex;
+}
+#box1,#box2{
+    border: solid 1px;
+    height: 120px;
+}
+#box1{
+    width: 260px;
+}
+#box2{
+    width: 1100px;
+    background-color: #933953;
+    text-align: center;
+}
+#clgname{
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "Calligraffitti", cursive;
+}
+#text1{
+    font-size: 18px;
+    color: #ffffff;
+}
+#text2{
+    font-size: 18px;
+    color: #ffffff;
+}
+#scrolltext{
+    font-size: 20px;
+    font-weight: bold;
+}
+.navigation{
+    border: solid 1px;
+    height: 50px;
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    float:left;
+    width: 130px;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(0, 157, 248);
+    position: relative;
+    margin-bottom: 1px;
+    margin-right: 1px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color: #000000;
+    font-size: 22px;
+    text-decoration: none;
+}
+ul ul{
+    position: absolute;
+    display: none;
+}
+ul li:hover>ul{
+    display: block;
+}
+ul li ul li{
+    width: 250px;
+    background-color: rgb(238, 156, 63);
+}
+ul li ul li ul li{
+    width:350px;
+    margin-left: 250px;
+}
+ul ul ul{
+    top: 0px;
+}
+ul li:hover{
+    background-color: #ffffff;
+}
+ul li ul li:hover{
+    background-color: rgb(119, 240, 71);
+}
+.arrow{
+    color: blueviolet;
+    font-size: 20px;
+}
+.abox{
+    border: solid 1px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+#in1,#in2,#in3{
+    border: solid 1px;
+    height: 400px;
+}
+#in1{
+    width: 700px;
+    background-image:url(vgnt\ clg\ 1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 700px 400px;
+    animation-name: imageschanging;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes imageschanging{
+    10%{
+        background-image: url(vgnt\ clg\ 2.jpeg)
+    }
+    20%{
+        background-image: url(vgnt\ 3.jpeg);
+    }
+    30%{
+        background-image: url(vgnt\ clg\ 4.jpeg);
+    }
+    40%{
+        background-image: url(vgnt\ clg\ 1.jpeg);
+    }
+    50%{
+        background-image: url(vgnt\ clg\ 5.jpeg);
+    }
+
+}
+#in2,#in3{
+    width: 270px;
+}
+.out{
+    border: solid 1px;
+    height: 140px;
+    background-color: #16233d;
+}
+#logo{
+    padding-right: 115px;
+}

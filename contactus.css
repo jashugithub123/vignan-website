@@ -1,0 +1,9 @@
+form{
+    border: dolid 1px;
+    width: 600px;
+    background-color: blueviolet;
+}
+label{
+    font-size: 25px;
+    font-weight: bold;
+}
